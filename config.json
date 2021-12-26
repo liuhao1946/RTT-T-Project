@@ -1,0 +1,18 @@
+{
+	"chip model" : [
+				"nRF52840_xxAA", 
+			  	"nRF52832_xxAA",
+			  	"nRF52832_xxAB",
+			  	"STM32F1034C8"
+			],
+	"jlink interface" : ["SWD"],
+	"Rx Timeout": "0",
+	"Speed" : "4000",
+	"SN" : "",
+	"font" : [
+				"Consolas",
+				"Calibri"
+			],
+	"font size" :"13",
+	"data window width" : "83"
+}
