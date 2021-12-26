@@ -82,15 +82,19 @@ SEGGER_RTT_printf(0,"test\n");
 ![](https://github.com/liuhao1946/RTT-T-Project/blob/master/image/2.gif)
 
 **更换数据框中的字体**
+
 打开config.json文件，将需要的字体放在"font"列表的第一项（类似添加nRF52840_xxAA）
 
 **更换数据框中的字体大小**
+
 打开config.json文件，修改"font size"中的数字，数字越大，字体越大
 
 **修改软件启动时数据框的宽度，以兼容不同电脑屏幕尺寸**
+
 打开config.json文件，修改"data window width"，默认是83，可以在此基础上增大或者减少
 
 **注：修改config.json文件后保存，然后重启软件，新修改的参数才会生效**
+
 
 
 
