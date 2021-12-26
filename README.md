@@ -56,7 +56,9 @@ SEGGER_RTT_printf(0,"test\n");
 ```
 
 * 打开**实时数据保存**或者**保存数据框中的全部数据**时，RTT-T会自动在应用程序所在目录创建文件
+
   实时数据保存的文件名称：real_time_log_xxx(xxx为年月日时分秒)
+  
   保存数据框中的全部数据文件名称：log_xxx(xxx为年月日时分秒)
 
 * Rx Timeout参数的说明
