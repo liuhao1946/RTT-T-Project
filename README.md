@@ -61,9 +61,8 @@ SEGGER_RTT_printf(0,"test\n");
 
 * Rx Timeout参数的说明
   这个参数的含义是在RTT-T每次接收到一笔数据（≥1）后，RTT-T都会等待Rx Timeout（ms）。在Rx Timeout内接收到的数据RTT-T认为是一包数据。当超过Rx Timeout后，RTT-T就会为这包数据打上一个时间戳（如果时间戳打开的话）。这可以更好的辅助RTT-T在合适的数据位置打上时间戳。
-  <br>
+  
   如果Rx Timeout = 0，表示RTT-T不使用超时机制，这可能造成的一个问题是时间戳的位置打的不准。
-  <br>
   
   **注：**
   **如果设置Rx Timeout，该值应该至少≥2（ms），推荐≥10（ms）**
