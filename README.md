@@ -43,7 +43,7 @@
 ---
 ### RTT-T功能演示
 
-![](https://gitee.com/bds123/RTT-T/blob/master/image/1.gif)
+![](https://gitee.com/bds123/RTT-T/raw/master/image/1.gif)
 
 ---
 ### RTT-T的使用说明
@@ -80,7 +80,7 @@ SEGGER_RTT_printf(0,"test\n");
 
 * 打开config.json文件，将芯片型号添加到"chip model"中
 
-![](https://gitee.com/bds123/RTT-T/blob/master/image/2.gif)
+![](https://gitee.com/bds123/RTT-T/raw/master/image/2.gif)
 
 **更换数据框中的字体**
 
