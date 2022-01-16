@@ -54,7 +54,7 @@ void str_to_int(char *p, int32_t *pv)
 	*pv = (sign != '-') ? *pv: -(*pv);
 }
 
-void led_timer_100ms(void * p_context)
+void timer_10ms(void)
 {
    //LOG_DEBUG("test");
    uint8_t len;
