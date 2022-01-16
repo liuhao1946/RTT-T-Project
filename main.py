@@ -323,7 +323,7 @@ def main():
                 if data_cmd.find('time syn') >= 0:
                     if jlink.opened():
                         try:
-                            time_str = datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
+                            time_str = 'time syn:' + datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
                             time_list = [ord(i) for i in time_str]
                             jlink.rtt_write(0,time_list)
                             logging.debug('Data send success(cmd:time syn):'+ time_str)
