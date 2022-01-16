@@ -24,7 +24,7 @@
 
 * 增加同步电脑时间到MCU
 
-![](https://gitee.com/bds123/RTT-T/raw/master/image/3.png)
+![](https://github.com/liuhao1946/RTT-T-Project/blob/master/image/3.png)
 
 **如果MCU端要获得到RTT-T的数据，有两个地方需要留意：**
 * 将MCU中RTT模块的接收缓存设置到合适的长度
@@ -85,7 +85,7 @@ void timer_10ms(void )
 ---
 ### RTT-T功能演示
 
-![](https://gitee.com/bds123/RTT-T/raw/master/image/1.gif)
+![](https://github.com/liuhao1946/RTT-T-Project/blob/master/image/1.gif)
 
 ---
 ### RTT-T的使用说明
@@ -122,7 +122,7 @@ SEGGER_RTT_printf(0,"test\n");
 
 * 打开config.json文件，将芯片型号添加到"chip model"中
 
-![](https://gitee.com/bds123/RTT-T/raw/master/image/2.gif)
+![](https://github.com/liuhao1946/RTT-T-Project/blob/master/image/2.gif)
 
 **更换数据框中的字体**
 
