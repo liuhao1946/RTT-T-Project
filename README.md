@@ -10,6 +10,40 @@
 * 支持实时记录数据到文件
 * 向上滚动鼠标滚动轮就能停止在当前界面。向下将滚动条滚到最低端就能实时看到当前接收到的数据
 * 每次连接J-Link都会复位MCU
+* 同步电脑时间到MCU
+* 通过RTT-T发送自定义数据到MCU
+  
+### 软件更新说明
+当前最新版本为v1.3，相比v1.2版本，有以下不同
+* 软件内部增加了一个logging模块，以跟踪软件内部的运行状态
+* 增加从RTT-T发送数据到MCU的接口
+* 增加同步电脑时间到MCU
+
+**如果MCU端要获得到RTT-T的数据，有两个地方需要留意：**
+* 将MCU中RTT模块的接收缓存设置到合适的长度
+
+* MCU在程序中做如下轮训调用，以查询RTT发送过来的数据：
+```c
+uint8_t rtt_rx_data[32];
+
+void timer_10ms(void )
+{
+    uint8_t len;
+    
+    len = SEGGER_RTT_Read(0,rtt_test,128);
+
+    if(len > 0)
+    {
+      //接收到数据
+    }
+}
+```
+
+**如果需要同步电脑时间到MCU**
+* 连接J-Llink
+* 在Text Data输入框中输入字符串指令"cmd:time syn"（软件默认）
+* 点击Send按钮，RTT-T会将如下字符串格式的电脑时间发送到MCU
+  "2022-01-16-15-08-05"  
 
 [RTT-T下载地址(windows平台)](https://gitee.com/bds123/RTT-T/releases)
 
