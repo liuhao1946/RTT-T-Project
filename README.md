@@ -1,5 +1,8 @@
 # RTT（Real Time Transfer） Tool（RTT-T）
 ---
+
+[RTT-T下载地址(windows平台)](https://gitee.com/bds123/RTT-T/releases)
+
 ### 描述
 这是一个**J-Llink RTT**软件，用来接收由MCU通过SEGGER RTT发送的数据。相比官方J-Llink RTT Viewer软件，该软件有以下特点：
 * 使用python基于**PySampleGUI**编写
@@ -48,8 +51,6 @@ void timer_10ms(void )
 
 * 点击Send按钮，RTT-T会将如下字符串格式的电脑时间发送到MCU
   "2022-01-16-15-08-05"  
-
-[RTT-T下载地址(windows平台)](https://gitee.com/bds123/RTT-T/releases)
 
 **如果需要源码，这里需要提醒一下**
 
