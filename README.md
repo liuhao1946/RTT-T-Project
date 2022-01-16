@@ -43,7 +43,9 @@ void timer_10ms(void )
 
 **如果需要同步电脑时间到MCU**
 * 连接J-Llink
+
 * 在Text Data输入框中输入字符串指令"cmd:time syn"（软件默认）
+
 * 点击Send按钮，RTT-T会将如下字符串格式的电脑时间发送到MCU
   "2022-01-16-15-08-05"  
 
