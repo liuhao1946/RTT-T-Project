@@ -19,7 +19,7 @@
 * 增加从RTT-T发送数据到MCU的接口
 * 增加同步电脑时间到MCU
 
-[](https://gitee.com/bds123/RTT-T/raw/master/image/3.png)
+![](https://gitee.com/bds123/RTT-T/raw/master/image/3.png)
 
 **如果MCU端要获得到RTT-T的数据，有两个地方需要留意：**
 * 将MCU中RTT模块的接收缓存设置到合适的长度
