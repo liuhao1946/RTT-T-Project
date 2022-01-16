@@ -19,7 +19,9 @@
 ### 软件更新说明
 当前最新版本为v1.3，相比v1.2版本，有以下不同
 * 软件内部增加了一个logging模块，以跟踪软件内部的运行状态
+
 * 增加从RTT-T发送数据到MCU的接口
+
 * 增加同步电脑时间到MCU
 
 ![](https://gitee.com/bds123/RTT-T/raw/master/image/3.png)
