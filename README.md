@@ -31,18 +31,64 @@
 
 * MCU在程序中做如下轮训调用，以查询RTT发送过来的数据：
 ```c
-uint8_t rtt_rx_data[32];
+#include "string.h"
+char rtt_rx_data[32];
 
-void timer_10ms(void )
+void str_to_int(char *p, int32_t *pv)
 {
-    uint8_t len;
-    
-    len = SEGGER_RTT_Read(0,rtt_test,128);
+	uint8_t sign;
+	char c;
 
-    if(len > 0)
-    {
-      //接收到数据
-    }
+	sign = *p;
+	if (p[0] == '-' || p[0] == '+')
+	{
+		p++;
+	}
+	*pv = 0;
+	while (*p >= '0' && *p <= '9')
+	{
+		c = *p++;
+		*pv = *pv * 10 + (c-'0');
+	}
+
+	*pv = (sign != '-') ? *pv: -(*pv);
+}
+
+void led_timer_100ms(void * p_context)
+{
+   //LOG_DEBUG("test");
+   uint8_t len;
+    
+   len = SEGGER_RTT_Read(0, rtt_rx_data, 32);
+   rtt_rx_data[len] = 0;
+    
+   if(len > 0)
+   {
+       char *p;
+       char temp[6];
+       uint8_t time[6];
+       int32_t temp_dt;
+       
+       p = strstr(rtt_rx_data, "time syn:");
+       //time syn:2022-01-16-16-27-30
+       if(p != 0)
+       {
+           uint8_t i;
+
+           p = p + 11;
+           memset(temp,0,6);
+           //字符串时间转换为整形，结果保存在time中
+           for(i = 0; i < 6; i++)
+           {
+               memcpy(temp,p,2);
+               str_to_int(temp, &temp_dt);
+               time[i] = temp_dt;
+               p += 3;
+           }
+           
+       }
+
+   }
 }
 ```
 
