@@ -1,7 +1,7 @@
 # RTT（Real Time Transfer） Tool（RTT-T）
 ---
 
-[RTT-T下载地址(windows平台)](https://gitee.com/bds123/RTT-T/releases)
+[RTT-T下载地址(windows平台)](https://github.com/liuhao1946/RTT-T-Project/releases)
 
 ### 描述
 这是一个**J-Llink RTT**软件，用来接收由MCU通过SEGGER RTT发送的数据。相比官方J-Llink RTT Viewer软件，该软件有以下特点：
