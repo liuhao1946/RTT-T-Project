@@ -12,6 +12,7 @@ import pylink
 import re
 import json
 import logging
+#import traceback
 
 
 base64_main_icon = b'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'
@@ -72,12 +73,19 @@ class JlinkThread(threading.Thread):
                             rtt_data_list = []
 
                     time.sleep(THREAD_RUN_INTERVAL_S)
-                except pylink.errors.JLinkException:
+                except Exception as e:
+                    logging.debug('Thread:rtt error [' + str(e) + ']\n')
+                    print(str(e))
+                    self.window.write_event_value('-JLINK_READ_DATA_THREAD-', 'J-Link connect lost')
+                    self._thread_start = False
+                except :
+                    logging.debug('Thread:rtt error\n')
                     self.window.write_event_value('-JLINK_READ_DATA_THREAD-', 'J-Link connect lost')
                     self._thread_start = False
             else:
+                print(rtt_data_list)
                 logging.debug('Thread:rtt data length [' + str(len(rtt_data_list)) + ']')
-                logging.debug('Thread:rtt data [' + ''.join(rtt_data_list) +']')
+                logging.debug('Thread:rtt data [' + ''.join([chr(i) for i in rtt_data_list]) +']')
                 logging.debug('Thread:GUI wakeup tick threshold {}'.format(self.gui_wakeup_tick_th))
                 logging.debug('Thread:J-Link thread wait......')
                 self.event.wait()
@@ -153,7 +161,7 @@ def main():
                sg.Frame('Text Data',sd_data_frame_layout,vertical_alignment='top')],
              ]
 
-    window = sg.Window('RTT Tool 1.3', layout,finalize=True,element_padding=(10,1),return_keyboard_events=False,icon=base64_main_icon,resizable=True)
+    window = sg.Window('RTT Tool 1.5', layout,finalize=True,element_padding=(10,1),return_keyboard_events=False,icon=base64_main_icon,resizable=True)
     window.set_min_size(window.size)
 
     #window['-CFG-'].expand(True, True, True)
@@ -231,9 +239,12 @@ def main():
                             jlink_thread.gui_wakeup_tick_th = int(time_ms / (THREAD_RUN_INTERVAL_S * 10 ** 3))
                             #print('time_ms:', time_ms,jlink_thread.gui_wakeup_tick_th)
                             window[RTT_DATA_WIN].write('LOG:RTT rx data timout:' + window['-RX_TIMEOUT-'].get() + '\n')
-                            jlink.rtt_start()
+
+                            if not jlink_thread.is_alive():
+                                jlink_thread.start()
                             jlink_thread.jlink_thread_ctr(True)
 
+                            jlink.rtt_start()
                             window['-RX_TIMEOUT-'].update(disabled=True)
                             window['-SN-'].update(disabled=True)
                             window['-SPEED-'].update(disabled=True)
@@ -241,9 +252,9 @@ def main():
                         logging.debug('Speed setting error')
                         sg.popup('Speed setting error')
                         jlink_reset(jlink)
-                    except:
-                        logging.debug('J-Link Operation error')
-                        sg.popup('J-Link Operation error')
+                    except Exception as e:
+                        logging.debug('J-Link Operation error[' + str(e) + ']')
+                        sg.popup('J-Link Operation error[' + str(e) + ']')
                         jlink_reset(jlink)
             else:
                     #Thread stop
@@ -297,6 +308,8 @@ def main():
                     with open(real_time_save_file_name, 'a', encoding='utf-8') as f:
                         f.write(real_time_save_data)
                     real_time_save_data = ''
+                except Exception as e:
+                    logging.debug('Write real time data to file error[' + str(e) + ']\n')
                 except:
                     logging.debug('Write real time data to file error')
                     sg.Print("Write real time data to file error")
@@ -327,6 +340,8 @@ def main():
                             time_list = [ord(i) for i in time_str]
                             jlink.rtt_write(0,time_list)
                             logging.debug('Data send success(cmd:time syn):'+ time_str)
+                        except Exception as e:
+                            logging.debug('Data send failt(cmd:time syn)[' + str(e) + ']\n')
                         except:
                             logging.debug('Data send failt(cmd:time syn)')
             else:
@@ -335,6 +350,8 @@ def main():
                         time_list = [ord(i) for i in data_cmd]
                         jlink.rtt_write(0, time_list)
                         logging.debug('Data send success:' + data_cmd)
+                    except Exception as e:
+                        logging.debug('Data send error[' + str(e) + ']\n')
                     except:
                         logging.debug('Data send error')
                 pass

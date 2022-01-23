@@ -1,10 +1,2065 @@
-2022/01/16 03:40:26 ----------------------------------------------------------------
-2022/01/16 03:40:26 ----------------------------------------------------------------
-2022/01/16 03:40:26 ---------------RTT-T Debug Log---------------
-2022/01/16 03:40:26 ----------------------------------------------------------------
-2022/01/16 03:40:26 ----------------------------------------------------------------
-2022/01/16 03:40:27 Thread:rtt data length [0]
-2022/01/16 03:40:27 Thread:rtt data []
-2022/01/16 03:40:27 Thread:GUI wakeup tick threshold 0
-2022/01/16 03:40:27 Thread:J-Link thread wait......
-2022/01/16 03:40:29 Thread:J-Link thread disble
+2022/01/23 03:16:37 ----------------------------------------------------------------
+2022/01/23 03:16:37 ----------------------------------------------------------------
+2022/01/23 03:16:37 ---------------RTT-T Debug Log---------------
+2022/01/23 03:16:37 ----------------------------------------------------------------
+2022/01/23 03:16:37 ----------------------------------------------------------------
+2022/01/23 03:16:38 Thread:rtt data length [0]
+2022/01/23 03:16:38 Thread:rtt data []
+2022/01/23 03:16:38 Thread:GUI wakeup tick threshold 0
+2022/01/23 03:16:38 Thread:J-Link thread wait......
+2022/01/23 03:16:39 T0EA4 001:325.566   
+2022/01/23 03:16:39 Firmware: J-Link V9 compiled May  7 2021 16:26:12
+2022/01/23 03:16:39 
+
+2022/01/23 03:16:39 T0EA4 001:326.259   
+2022/01/23 03:16:39 Firmware: J-Link V9 compiled May  7 2021 16:26:12
+2022/01/23 03:16:39 
+
+2022/01/23 03:16:39 T0EA4 001:326.661   
+2022/01/23 03:16:39 Decompressing FW timestamp took 216 us
+2022/01/23 03:16:39 
+
+2022/01/23 03:16:39 T0EA4 001:332.666   
+2022/01/23 03:16:39 Hardware: V9.60
+2022/01/23 03:16:39 
+
+2022/01/23 03:16:39 T0EA4 001:332.916   
+2022/01/23 03:16:39 S/N: 69669228
+2022/01/23 03:16:39 
+
+2022/01/23 03:16:39 T0EA4 001:333.036   
+2022/01/23 03:16:39 OEM: SEGGER
+2022/01/23 03:16:39 
+
+2022/01/23 03:16:39 T0EA4 001:333.146   
+2022/01/23 03:16:39 Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+2022/01/23 03:16:39 
+
+2022/01/23 03:16:39 T0EA4 001:334.122   
+2022/01/23 03:16:39 TELNET listener socket opened on port 19021
+2022/01/23 03:16:39 
+
+2022/01/23 03:16:39 T0EA4 001:334.583   
+2022/01/23 03:16:39 WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+2022/01/23 03:16:39 
+
+2022/01/23 03:16:39 T0EA4 001:334.838   
+2022/01/23 03:16:39 WEBSRV Webserver running on local port 19080
+2022/01/23 03:16:39 
+
+2022/01/23 03:16:39 T0EA4 001:360.633 
+2022/01/23 03:16:39 - 37.781ms returns "O.K."
+
+2022/01/23 03:16:39 T0EA4 001:360.931 
+2022/01/23 03:16:39 JLINK_SetHookUnsecureDialog
+
+2022/01/23 03:16:39 T0EA4 001:361.023   
+2022/01/23 03:16:39 JLINK_SetHookUnsecureDialog(...)
+2022/01/23 03:16:39 
+
+2022/01/23 03:16:39 T0EA4 001:361.129 
+2022/01/23 03:16:39 - 0.232ms returns 0
+
+2022/01/23 03:16:39 T0EA4 001:361.204 
+2022/01/23 03:16:39 JLINK_IsOpen()
+
+2022/01/23 03:16:39 T0EA4 001:361.273 
+2022/01/23 03:16:39 - 0.101ms returns 0x01
+
+2022/01/23 03:16:39 T0EA4 001:361.344 
+2022/01/23 03:16:39 JLINK_IsOpen()
+
+2022/01/23 03:16:39 T0EA4 001:361.410 
+2022/01/23 03:16:39 - 0.099ms returns 0x01
+
+2022/01/23 03:16:39 T0EA4 001:361.491 
+2022/01/23 03:16:39 JLINK_EMU_IsConnected()
+
+2022/01/23 03:16:39 T0EA4 001:361.561 
+2022/01/23 03:16:39 - 0.102ms returns TRUE
+
+2022/01/23 03:16:39 T0EA4 001:361.644 
+2022/01/23 03:16:39 JLINK_GetSN()
+
+2022/01/23 03:16:39 T0EA4 001:361.719 
+2022/01/23 03:16:39 - 0.107ms returns 69669228
+
+2022/01/23 03:16:39 T0EA4 001:367.184 
+2022/01/23 03:16:39 JLINK_Close()
+
+2022/01/23 03:16:39 Device "NRF52840_XXAA" selected.
+2022/01/23 03:16:39 InitTarget() start
+2022/01/23 03:16:39 InitTarget() end
+2022/01/23 03:16:39 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:16:39 DPIDR: 0x2BA01477
+2022/01/23 03:16:39 CoreSight SoC-400 or earlier
+2022/01/23 03:16:39 Scanning AP map to find all available APs
+2022/01/23 03:16:39 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 03:16:39 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 03:16:39 Iterating through AP map to find AHB-AP to use
+2022/01/23 03:16:39 AP[0]: Core found
+2022/01/23 03:16:39 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:16:39 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:16:39 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:16:39 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:16:39 CoreSight components:
+2022/01/23 03:16:39 ROMTbl[0] @ E00FF000
+2022/01/23 03:16:39 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:16:39 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:16:39 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:16:39 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:16:39 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:16:39 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:16:39 InitTarget() start
+2022/01/23 03:16:39 InitTarget() end
+2022/01/23 03:16:39 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:16:39 DPIDR: 0x2BA01477
+2022/01/23 03:16:39 CoreSight SoC-400 or earlier
+2022/01/23 03:16:39 AP map detection skipped. Manually configured AP map found.
+2022/01/23 03:16:39 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 03:16:39 AP[0]: Core found
+2022/01/23 03:16:39 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:16:39 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:16:39 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:16:39 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:16:39 CoreSight components:
+2022/01/23 03:16:39 ROMTbl[0] @ E00FF000
+2022/01/23 03:16:39 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:16:39 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:16:39 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:16:39 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:16:39 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:16:39 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:16:39 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 03:16:39 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 03:16:39 Thread:J-Link thread enable
+2022/01/23 03:24:44 Data send success:a
+2022/01/23 03:25:00 Data send success:b
+2022/01/23 03:25:33 Data send success:a
+2022/01/23 03:25:43 Data send success:b
+2022/01/23 03:26:05 Thread:J-Link thread disble
+2022/01/23 03:26:05 Thread:rtt data length [33]
+2022/01/23 03:26:05 Thread:rtt data [pitch,roll,yaw:6.38,96.98,117.92
+]
+2022/01/23 03:26:05 Thread:GUI wakeup tick threshold 0
+2022/01/23 03:26:05 Thread:J-Link thread wait......
+2022/01/23 03:26:05 Device "NRF52840_XXAA" selected.
+2022/01/23 03:26:05 InitTarget() start
+2022/01/23 03:26:05 InitTarget() end
+2022/01/23 03:26:05 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:26:05 DPIDR: 0x2BA01477
+2022/01/23 03:26:05 CoreSight SoC-400 or earlier
+2022/01/23 03:26:05 Scanning AP map to find all available APs
+2022/01/23 03:26:05 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 03:26:05 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 03:26:05 Iterating through AP map to find AHB-AP to use
+2022/01/23 03:26:05 AP[0]: Core found
+2022/01/23 03:26:05 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:26:05 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:26:05 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:26:05 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:26:05 CoreSight components:
+2022/01/23 03:26:05 ROMTbl[0] @ E00FF000
+2022/01/23 03:26:05 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:26:05 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:26:05 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:26:05 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:26:05 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:26:05 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:26:05 InitTarget() start
+2022/01/23 03:26:05 InitTarget() end
+2022/01/23 03:26:05 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:26:05 DPIDR: 0x2BA01477
+2022/01/23 03:26:05 CoreSight SoC-400 or earlier
+2022/01/23 03:26:05 AP map detection skipped. Manually configured AP map found.
+2022/01/23 03:26:05 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 03:26:05 AP[0]: Core found
+2022/01/23 03:26:05 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:26:05 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:26:05 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:26:05 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:26:05 CoreSight components:
+2022/01/23 03:26:05 ROMTbl[0] @ E00FF000
+2022/01/23 03:26:05 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:26:05 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:26:05 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:26:05 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:26:05 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:26:05 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:26:05 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 03:26:05 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 03:26:05 Thread:J-Link thread enable
+2022/01/23 03:26:08 Data send success:a
+2022/01/23 03:26:23 Data send success:b
+2022/01/23 03:27:47 Data send success:a
+2022/01/23 03:27:59 Data send success:b
+2022/01/23 03:28:32 Data send success:a
+2022/01/23 03:28:43 Data send success:b
+2022/01/23 03:30:26 Data send success:a
+2022/01/23 03:30:41 Data send success:b
+2022/01/23 03:32:39 Data send success:a
+2022/01/23 03:32:55 Data send success:b
+2022/01/23 03:34:45 Data send success:a
+2022/01/23 03:35:01 Data send success:b
+2022/01/23 03:35:33 Data send success:a
+2022/01/23 03:35:54 Data send success:b
+2022/01/23 03:36:29 Data send success:a
+2022/01/23 03:36:40 Data send success:b
+2022/01/23 03:37:55 Thread:J-Link thread disble
+2022/01/23 03:37:55 Thread:rtt data length [35]
+2022/01/23 03:37:55 Thread:rtt data [pitch,roll,yaw:-27.26,95.56,116.42
+]
+2022/01/23 03:37:55 Thread:GUI wakeup tick threshold 0
+2022/01/23 03:37:55 Thread:J-Link thread wait......
+2022/01/23 03:37:55 Device "NRF52840_XXAA" selected.
+2022/01/23 03:37:55 InitTarget() start
+2022/01/23 03:37:55 InitTarget() end
+2022/01/23 03:37:55 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:37:55 DPIDR: 0x2BA01477
+2022/01/23 03:37:55 CoreSight SoC-400 or earlier
+2022/01/23 03:37:55 Scanning AP map to find all available APs
+2022/01/23 03:37:55 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 03:37:55 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 03:37:55 Iterating through AP map to find AHB-AP to use
+2022/01/23 03:37:55 AP[0]: Core found
+2022/01/23 03:37:55 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:37:55 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:37:55 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:37:55 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:37:55 CoreSight components:
+2022/01/23 03:37:55 ROMTbl[0] @ E00FF000
+2022/01/23 03:37:55 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:37:55 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:37:55 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:37:55 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:37:55 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:37:55 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:37:55 InitTarget() start
+2022/01/23 03:37:55 InitTarget() end
+2022/01/23 03:37:55 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:37:55 DPIDR: 0x2BA01477
+2022/01/23 03:37:55 CoreSight SoC-400 or earlier
+2022/01/23 03:37:55 AP map detection skipped. Manually configured AP map found.
+2022/01/23 03:37:55 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 03:37:55 AP[0]: Core found
+2022/01/23 03:37:55 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:37:55 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:37:55 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:37:56 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:37:56 CoreSight components:
+2022/01/23 03:37:56 ROMTbl[0] @ E00FF000
+2022/01/23 03:37:56 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:37:56 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:37:56 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:37:56 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:37:56 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:37:56 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:37:56 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 03:37:56 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 03:37:56 Thread:J-Link thread enable
+2022/01/23 03:37:57 Data send success:a
+2022/01/23 03:38:05 Data send success:b
+2022/01/23 03:39:04 Data send success:a
+2022/01/23 03:39:23 Data send success:a
+2022/01/23 03:39:35 Data send success:b
+2022/01/23 03:39:46 Thread:J-Link thread disble
+2022/01/23 03:39:46 Thread:rtt data length [33]
+2022/01/23 03:39:46 Thread:rtt data [pitch,roll,yaw:-5.58,97.55,87.82
+]
+2022/01/23 03:39:46 Thread:GUI wakeup tick threshold 0
+2022/01/23 03:39:46 Thread:J-Link thread wait......
+2022/01/23 03:39:47 Device "NRF52840_XXAA" selected.
+2022/01/23 03:39:47 InitTarget() start
+2022/01/23 03:39:47 InitTarget() end
+2022/01/23 03:39:47 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:39:47 DPIDR: 0x2BA01477
+2022/01/23 03:39:47 CoreSight SoC-400 or earlier
+2022/01/23 03:39:47 Scanning AP map to find all available APs
+2022/01/23 03:39:47 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 03:39:47 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 03:39:47 Iterating through AP map to find AHB-AP to use
+2022/01/23 03:39:47 AP[0]: Core found
+2022/01/23 03:39:47 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:39:47 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:39:47 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:39:47 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:39:47 CoreSight components:
+2022/01/23 03:39:47 ROMTbl[0] @ E00FF000
+2022/01/23 03:39:47 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:39:47 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:39:47 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:39:47 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:39:47 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:39:47 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:39:47 InitTarget() start
+2022/01/23 03:39:47 InitTarget() end
+2022/01/23 03:39:47 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:39:47 DPIDR: 0x2BA01477
+2022/01/23 03:39:47 CoreSight SoC-400 or earlier
+2022/01/23 03:39:47 AP map detection skipped. Manually configured AP map found.
+2022/01/23 03:39:47 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 03:39:47 AP[0]: Core found
+2022/01/23 03:39:47 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:39:47 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:39:47 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:39:47 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:39:47 CoreSight components:
+2022/01/23 03:39:47 ROMTbl[0] @ E00FF000
+2022/01/23 03:39:47 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:39:47 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:39:47 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:39:47 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:39:47 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:39:47 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:39:47 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 03:39:47 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 03:39:47 Thread:J-Link thread enable
+2022/01/23 03:39:49 Data send success:a
+2022/01/23 03:40:31 Data send success:a
+2022/01/23 03:40:44 Data send success:b
+2022/01/23 03:41:27 Thread:J-Link thread disble
+2022/01/23 03:41:27 Thread:rtt data length [0]
+2022/01/23 03:41:27 Thread:rtt data []
+2022/01/23 03:41:27 Thread:GUI wakeup tick threshold 0
+2022/01/23 03:41:27 Thread:J-Link thread wait......
+2022/01/23 03:41:27 Device "NRF52840_XXAA" selected.
+2022/01/23 03:41:27 InitTarget() start
+2022/01/23 03:41:27 InitTarget() end
+2022/01/23 03:41:27 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:41:27 DPIDR: 0x2BA01477
+2022/01/23 03:41:27 CoreSight SoC-400 or earlier
+2022/01/23 03:41:27 Scanning AP map to find all available APs
+2022/01/23 03:41:27 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 03:41:27 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 03:41:27 Iterating through AP map to find AHB-AP to use
+2022/01/23 03:41:27 AP[0]: Core found
+2022/01/23 03:41:27 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:41:27 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:41:27 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:41:28 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:41:28 CoreSight components:
+2022/01/23 03:41:28 ROMTbl[0] @ E00FF000
+2022/01/23 03:41:28 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:41:28 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:41:28 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:41:28 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:41:28 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:41:28 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:41:28 InitTarget() start
+2022/01/23 03:41:28 InitTarget() end
+2022/01/23 03:41:28 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:41:28 DPIDR: 0x2BA01477
+2022/01/23 03:41:28 CoreSight SoC-400 or earlier
+2022/01/23 03:41:28 AP map detection skipped. Manually configured AP map found.
+2022/01/23 03:41:28 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 03:41:28 AP[0]: Core found
+2022/01/23 03:41:28 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:41:28 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:41:28 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:41:28 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:41:28 CoreSight components:
+2022/01/23 03:41:28 ROMTbl[0] @ E00FF000
+2022/01/23 03:41:28 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:41:28 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:41:28 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:41:28 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:41:28 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:41:28 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:41:28 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 03:41:28 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 03:41:28 Thread:J-Link thread enable
+2022/01/23 03:41:30 Data send success:b
+2022/01/23 03:43:34 Thread:rtt error [J-Link connection has been lost.]
+
+2022/01/23 03:43:34 Thread:rtt data length [0]
+2022/01/23 03:43:34 Thread:rtt data []
+2022/01/23 03:43:34 J-Link connect lost
+2022/01/23 03:43:34 Thread:GUI wakeup tick threshold 0
+2022/01/23 03:43:34 Thread:J-Link thread wait......
+2022/01/23 03:43:34 Thread:J-Link thread disble
+2022/01/23 03:43:56 Device "NRF52840_XXAA" selected.
+2022/01/23 03:43:56 InitTarget() start
+2022/01/23 03:43:56 InitTarget() end
+2022/01/23 03:43:56 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:43:56 DPIDR: 0x2BA01477
+2022/01/23 03:43:56 CoreSight SoC-400 or earlier
+2022/01/23 03:43:56 Scanning AP map to find all available APs
+2022/01/23 03:43:56 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 03:43:56 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 03:43:56 Iterating through AP map to find AHB-AP to use
+2022/01/23 03:43:56 AP[0]: Core found
+2022/01/23 03:43:56 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:43:56 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:43:56 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:43:56 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:43:56 CoreSight components:
+2022/01/23 03:43:56 ROMTbl[0] @ E00FF000
+2022/01/23 03:43:56 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:43:56 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:43:56 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:43:56 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:43:56 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:43:56 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:43:56 InitTarget() start
+2022/01/23 03:43:56 InitTarget() end
+2022/01/23 03:43:56 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:43:56 DPIDR: 0x2BA01477
+2022/01/23 03:43:56 CoreSight SoC-400 or earlier
+2022/01/23 03:43:56 AP map detection skipped. Manually configured AP map found.
+2022/01/23 03:43:56 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 03:43:56 AP[0]: Core found
+2022/01/23 03:43:56 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:43:56 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:43:56 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:43:56 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:43:56 CoreSight components:
+2022/01/23 03:43:56 ROMTbl[0] @ E00FF000
+2022/01/23 03:43:56 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:43:56 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:43:56 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:43:56 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:43:56 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:43:56 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:43:56 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 03:43:56 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 03:43:56 Thread:J-Link thread enable
+2022/01/23 03:44:00 Data send success:a
+2022/01/23 03:44:11 Data send success:b
+2022/01/23 03:44:48 Data send success:b
+2022/01/23 03:46:46 Data send success:b
+2022/01/23 03:47:09 Data send success:b
+2022/01/23 03:47:30 Thread:J-Link thread disble
+2022/01/23 03:47:30 Thread:rtt data length [0]
+2022/01/23 03:47:30 Thread:rtt data []
+2022/01/23 03:47:30 Thread:GUI wakeup tick threshold 0
+2022/01/23 03:47:30 Thread:J-Link thread wait......
+2022/01/23 03:47:31 Device "NRF52840_XXAA" selected.
+2022/01/23 03:47:31 InitTarget() start
+2022/01/23 03:47:31 InitTarget() end
+2022/01/23 03:47:31 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:47:31 DPIDR: 0x2BA01477
+2022/01/23 03:47:31 CoreSight SoC-400 or earlier
+2022/01/23 03:47:31 Scanning AP map to find all available APs
+2022/01/23 03:47:31 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 03:47:31 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 03:47:31 Iterating through AP map to find AHB-AP to use
+2022/01/23 03:47:31 AP[0]: Core found
+2022/01/23 03:47:31 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:47:31 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:47:31 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:47:31 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:47:31 CoreSight components:
+2022/01/23 03:47:31 ROMTbl[0] @ E00FF000
+2022/01/23 03:47:31 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:47:31 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:47:31 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:47:31 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:47:31 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:47:31 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:47:31 InitTarget() start
+2022/01/23 03:47:31 InitTarget() end
+2022/01/23 03:47:31 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:47:31 DPIDR: 0x2BA01477
+2022/01/23 03:47:31 CoreSight SoC-400 or earlier
+2022/01/23 03:47:31 AP map detection skipped. Manually configured AP map found.
+2022/01/23 03:47:31 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 03:47:31 AP[0]: Core found
+2022/01/23 03:47:31 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:47:31 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:47:31 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:47:32 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:47:32 CoreSight components:
+2022/01/23 03:47:32 ROMTbl[0] @ E00FF000
+2022/01/23 03:47:32 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:47:32 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:47:32 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:47:32 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:47:32 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:47:32 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:47:32 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 03:47:32 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 03:47:32 Thread:J-Link thread enable
+2022/01/23 03:47:34 Data send success:a
+2022/01/23 03:47:46 Data send success:b
+2022/01/23 03:48:08 Thread:J-Link thread disble
+2022/01/23 03:48:08 Thread:rtt data length [35]
+2022/01/23 03:48:08 Thread:rtt data [pitch,roll,yaw:-81.30,101.59,30.14
+]
+2022/01/23 03:48:08 Thread:GUI wakeup tick threshold 0
+2022/01/23 03:48:08 Thread:J-Link thread wait......
+2022/01/23 03:48:08 Device "NRF52840_XXAA" selected.
+2022/01/23 03:48:08 InitTarget() start
+2022/01/23 03:48:08 InitTarget() end
+2022/01/23 03:48:08 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:48:08 DPIDR: 0x2BA01477
+2022/01/23 03:48:08 CoreSight SoC-400 or earlier
+2022/01/23 03:48:08 Scanning AP map to find all available APs
+2022/01/23 03:48:08 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 03:48:08 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 03:48:08 Iterating through AP map to find AHB-AP to use
+2022/01/23 03:48:08 AP[0]: Core found
+2022/01/23 03:48:08 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:48:08 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:48:08 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:48:08 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:48:08 CoreSight components:
+2022/01/23 03:48:08 ROMTbl[0] @ E00FF000
+2022/01/23 03:48:08 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:48:08 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:48:08 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:48:08 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:48:08 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:48:08 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:48:08 InitTarget() start
+2022/01/23 03:48:08 InitTarget() end
+2022/01/23 03:48:08 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:48:08 DPIDR: 0x2BA01477
+2022/01/23 03:48:08 CoreSight SoC-400 or earlier
+2022/01/23 03:48:08 AP map detection skipped. Manually configured AP map found.
+2022/01/23 03:48:08 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 03:48:08 AP[0]: Core found
+2022/01/23 03:48:08 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:48:08 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:48:08 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:48:08 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:48:08 CoreSight components:
+2022/01/23 03:48:08 ROMTbl[0] @ E00FF000
+2022/01/23 03:48:08 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:48:08 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:48:08 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:48:08 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:48:08 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:48:08 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:48:08 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 03:48:08 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 03:48:08 Thread:J-Link thread enable
+2022/01/23 03:48:16 Data send success:a
+2022/01/23 03:48:25 Data send success:b
+2022/01/23 03:49:26 Data send success:a
+2022/01/23 03:49:36 Data send success:b
+2022/01/23 03:50:37 Data send success:a
+2022/01/23 03:50:50 Data send success:b
+2022/01/23 03:52:10 Data send success:a
+2022/01/23 03:52:24 Data send success:b
+2022/01/23 03:55:27 Data send success:a
+2022/01/23 03:55:41 Data send success:b
+2022/01/23 03:55:57 Data send success:a
+2022/01/23 03:56:14 Data send success:b
+2022/01/23 03:56:50 Data send success:a
+2022/01/23 03:57:03 Data send success:b
+2022/01/23 03:57:35 Thread:J-Link thread disble
+2022/01/23 03:57:35 Thread:rtt data length [0]
+2022/01/23 03:57:35 Thread:rtt data []
+2022/01/23 03:57:35 Thread:GUI wakeup tick threshold 0
+2022/01/23 03:57:35 Thread:J-Link thread wait......
+2022/01/23 03:57:36 Device "NRF52840_XXAA" selected.
+2022/01/23 03:57:36 InitTarget() start
+2022/01/23 03:57:36 InitTarget() end
+2022/01/23 03:57:36 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:57:36 DPIDR: 0x2BA01477
+2022/01/23 03:57:36 CoreSight SoC-400 or earlier
+2022/01/23 03:57:36 Scanning AP map to find all available APs
+2022/01/23 03:57:36 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 03:57:36 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 03:57:36 Iterating through AP map to find AHB-AP to use
+2022/01/23 03:57:36 AP[0]: Core found
+2022/01/23 03:57:36 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:57:36 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:57:36 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:57:36 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:57:36 CoreSight components:
+2022/01/23 03:57:36 ROMTbl[0] @ E00FF000
+2022/01/23 03:57:36 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:57:36 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:57:36 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:57:36 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:57:36 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:57:36 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:57:36 InitTarget() start
+2022/01/23 03:57:36 InitTarget() end
+2022/01/23 03:57:36 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:57:36 DPIDR: 0x2BA01477
+2022/01/23 03:57:36 CoreSight SoC-400 or earlier
+2022/01/23 03:57:36 AP map detection skipped. Manually configured AP map found.
+2022/01/23 03:57:36 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 03:57:36 AP[0]: Core found
+2022/01/23 03:57:36 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:57:36 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:57:36 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:57:36 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:57:36 CoreSight components:
+2022/01/23 03:57:36 ROMTbl[0] @ E00FF000
+2022/01/23 03:57:36 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:57:36 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:57:36 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:57:36 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:57:36 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:57:36 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:57:36 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 03:57:36 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 03:57:36 Thread:J-Link thread enable
+2022/01/23 03:57:37 Data send success:a
+2022/01/23 03:57:53 Data send success:b
+2022/01/23 03:57:57 Data send success:a
+2022/01/23 03:57:58 Thread:J-Link thread disble
+2022/01/23 03:57:58 Thread:rtt data length [39]
+2022/01/23 03:57:58 Thread:rtt data [pitch,roll,yaw:-52.818,104.503,-23.415
+]
+2022/01/23 03:57:58 Thread:GUI wakeup tick threshold 0
+2022/01/23 03:57:58 Thread:J-Link thread wait......
+2022/01/23 03:57:59 Device "NRF52840_XXAA" selected.
+2022/01/23 03:57:59 InitTarget() start
+2022/01/23 03:57:59 InitTarget() end
+2022/01/23 03:57:59 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:57:59 DPIDR: 0x2BA01477
+2022/01/23 03:57:59 CoreSight SoC-400 or earlier
+2022/01/23 03:57:59 Scanning AP map to find all available APs
+2022/01/23 03:57:59 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 03:57:59 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 03:57:59 Iterating through AP map to find AHB-AP to use
+2022/01/23 03:57:59 AP[0]: Core found
+2022/01/23 03:57:59 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:57:59 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:57:59 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:57:59 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:57:59 CoreSight components:
+2022/01/23 03:57:59 ROMTbl[0] @ E00FF000
+2022/01/23 03:57:59 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:57:59 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:57:59 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:57:59 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:57:59 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:57:59 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:57:59 InitTarget() start
+2022/01/23 03:57:59 InitTarget() end
+2022/01/23 03:57:59 Found SW-DP with ID 0x2BA01477
+2022/01/23 03:57:59 DPIDR: 0x2BA01477
+2022/01/23 03:57:59 CoreSight SoC-400 or earlier
+2022/01/23 03:57:59 AP map detection skipped. Manually configured AP map found.
+2022/01/23 03:57:59 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 03:57:59 AP[0]: Core found
+2022/01/23 03:57:59 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 03:57:59 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 03:57:59 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 03:57:59 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 03:57:59 CoreSight components:
+2022/01/23 03:57:59 ROMTbl[0] @ E00FF000
+2022/01/23 03:57:59 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 03:57:59 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 03:57:59 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 03:57:59 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 03:57:59 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 03:57:59 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 03:57:59 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 03:57:59 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 03:57:59 Thread:J-Link thread enable
+2022/01/23 03:58:08 Data send success:a
+2022/01/23 03:58:23 Data send success:b
+2022/01/23 03:59:11 Data send success:a
+2022/01/23 03:59:25 Data send success:b
+2022/01/23 04:00:04 Thread:J-Link thread disble
+2022/01/23 04:00:04 Thread:rtt data length [0]
+2022/01/23 04:00:04 Thread:rtt data []
+2022/01/23 04:00:04 Thread:GUI wakeup tick threshold 0
+2022/01/23 04:00:04 Thread:J-Link thread wait......
+2022/01/23 04:00:05 Device "NRF52840_XXAA" selected.
+2022/01/23 04:00:05 InitTarget() start
+2022/01/23 04:00:05 InitTarget() end
+2022/01/23 04:00:06 InitTarget() start
+2022/01/23 04:00:06 InitTarget() end
+2022/01/23 04:00:06 InitTarget() start
+2022/01/23 04:00:06 InitTarget() end
+2022/01/23 04:00:06 InitTarget() start
+2022/01/23 04:00:06 InitTarget() end
+2022/01/23 04:00:06 J-Link Operation error[Unspecified error.]
+2022/01/23 04:00:11 Device "NRF52840_XXAA" selected.
+2022/01/23 04:00:11 InitTarget() start
+2022/01/23 04:00:11 InitTarget() end
+2022/01/23 04:00:11 InitTarget() start
+2022/01/23 04:00:11 InitTarget() end
+2022/01/23 04:00:12 InitTarget() start
+2022/01/23 04:00:12 InitTarget() end
+2022/01/23 04:00:12 InitTarget() start
+2022/01/23 04:00:12 InitTarget() end
+2022/01/23 04:00:12 J-Link Operation error[Unspecified error.]
+2022/01/23 04:02:59 Device "NRF52840_XXAA" selected.
+2022/01/23 04:02:59 InitTarget() start
+2022/01/23 04:02:59 InitTarget() end
+2022/01/23 04:02:59 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:02:59 DPIDR: 0x2BA01477
+2022/01/23 04:02:59 CoreSight SoC-400 or earlier
+2022/01/23 04:02:59 Scanning AP map to find all available APs
+2022/01/23 04:02:59 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 04:02:59 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 04:02:59 Iterating through AP map to find AHB-AP to use
+2022/01/23 04:02:59 AP[0]: Core found
+2022/01/23 04:02:59 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:02:59 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:02:59 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:02:59 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:02:59 CoreSight components:
+2022/01/23 04:02:59 ROMTbl[0] @ E00FF000
+2022/01/23 04:02:59 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:02:59 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:02:59 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:02:59 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:02:59 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:02:59 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:02:59 InitTarget() start
+2022/01/23 04:02:59 InitTarget() end
+2022/01/23 04:02:59 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:02:59 DPIDR: 0x2BA01477
+2022/01/23 04:02:59 CoreSight SoC-400 or earlier
+2022/01/23 04:02:59 AP map detection skipped. Manually configured AP map found.
+2022/01/23 04:02:59 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 04:02:59 AP[0]: Core found
+2022/01/23 04:02:59 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:02:59 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:02:59 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:02:59 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:02:59 CoreSight components:
+2022/01/23 04:02:59 ROMTbl[0] @ E00FF000
+2022/01/23 04:02:59 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:02:59 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:02:59 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:02:59 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:02:59 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:02:59 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:02:59 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 04:02:59 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 04:02:59 Thread:J-Link thread enable
+2022/01/23 04:03:03 Data send success:a
+2022/01/23 04:06:45 Thread:J-Link thread disble
+2022/01/23 04:06:45 Thread:rtt data length [0]
+2022/01/23 04:06:45 Thread:rtt data []
+2022/01/23 04:06:45 Thread:GUI wakeup tick threshold 0
+2022/01/23 04:06:45 Thread:J-Link thread wait......
+2022/01/23 04:06:45 Device "NRF52840_XXAA" selected.
+2022/01/23 04:06:45 InitTarget() start
+2022/01/23 04:06:45 InitTarget() end
+2022/01/23 04:06:45 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:06:45 DPIDR: 0x2BA01477
+2022/01/23 04:06:45 CoreSight SoC-400 or earlier
+2022/01/23 04:06:45 Scanning AP map to find all available APs
+2022/01/23 04:06:45 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 04:06:45 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 04:06:45 Iterating through AP map to find AHB-AP to use
+2022/01/23 04:06:45 AP[0]: Core found
+2022/01/23 04:06:45 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:06:45 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:06:45 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:06:45 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:06:45 CoreSight components:
+2022/01/23 04:06:45 ROMTbl[0] @ E00FF000
+2022/01/23 04:06:45 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:06:45 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:06:45 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:06:45 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:06:45 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:06:45 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:06:45 InitTarget() start
+2022/01/23 04:06:45 InitTarget() end
+2022/01/23 04:06:45 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:06:45 DPIDR: 0x2BA01477
+2022/01/23 04:06:45 CoreSight SoC-400 or earlier
+2022/01/23 04:06:45 AP map detection skipped. Manually configured AP map found.
+2022/01/23 04:06:45 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 04:06:45 AP[0]: Core found
+2022/01/23 04:06:45 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:06:45 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:06:45 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:06:46 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:06:46 CoreSight components:
+2022/01/23 04:06:46 ROMTbl[0] @ E00FF000
+2022/01/23 04:06:46 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:06:46 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:06:46 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:06:46 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:06:46 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:06:46 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:06:46 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 04:06:46 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 04:06:46 Thread:J-Link thread enable
+2022/01/23 04:06:49 Data send success:a
+2022/01/23 04:07:05 Data send success:b
+2022/01/23 04:10:01 Thread:J-Link thread disble
+2022/01/23 04:10:01 Thread:rtt data length [0]
+2022/01/23 04:10:01 Thread:rtt data []
+2022/01/23 04:10:01 Thread:GUI wakeup tick threshold 0
+2022/01/23 04:10:01 Thread:J-Link thread wait......
+2022/01/23 04:10:02 Device "NRF52840_XXAA" selected.
+2022/01/23 04:10:02 InitTarget() start
+2022/01/23 04:10:02 InitTarget() end
+2022/01/23 04:10:02 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:10:02 DPIDR: 0x2BA01477
+2022/01/23 04:10:02 CoreSight SoC-400 or earlier
+2022/01/23 04:10:02 Scanning AP map to find all available APs
+2022/01/23 04:10:02 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 04:10:02 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 04:10:02 Iterating through AP map to find AHB-AP to use
+2022/01/23 04:10:02 AP[0]: Core found
+2022/01/23 04:10:02 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:10:02 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:10:02 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:10:02 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:10:02 CoreSight components:
+2022/01/23 04:10:02 ROMTbl[0] @ E00FF000
+2022/01/23 04:10:02 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:10:02 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:10:02 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:10:02 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:10:02 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:10:02 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:10:02 InitTarget() start
+2022/01/23 04:10:02 InitTarget() end
+2022/01/23 04:10:02 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:10:02 DPIDR: 0x2BA01477
+2022/01/23 04:10:02 CoreSight SoC-400 or earlier
+2022/01/23 04:10:02 AP map detection skipped. Manually configured AP map found.
+2022/01/23 04:10:02 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 04:10:02 AP[0]: Core found
+2022/01/23 04:10:02 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:10:02 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:10:02 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:10:02 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:10:02 CoreSight components:
+2022/01/23 04:10:02 ROMTbl[0] @ E00FF000
+2022/01/23 04:10:02 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:10:02 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:10:02 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:10:02 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:10:02 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:10:02 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:10:02 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 04:10:02 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 04:10:02 Thread:J-Link thread enable
+2022/01/23 04:10:03 Data send success:a
+2022/01/23 04:10:16 Data send error[Unspecified error.]
+
+2022/01/23 04:10:19 Data send success:b
+2022/01/23 04:10:19 Data send success:b
+2022/01/23 04:11:45 Thread:J-Link thread disble
+2022/01/23 04:11:45 Thread:rtt data length [0]
+2022/01/23 04:11:45 Thread:rtt data []
+2022/01/23 04:11:45 Thread:GUI wakeup tick threshold 0
+2022/01/23 04:11:45 Thread:J-Link thread wait......
+2022/01/23 04:11:45 Device "NRF52840_XXAA" selected.
+2022/01/23 04:11:45 InitTarget() start
+2022/01/23 04:11:45 InitTarget() end
+2022/01/23 04:11:45 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:11:45 DPIDR: 0x2BA01477
+2022/01/23 04:11:45 CoreSight SoC-400 or earlier
+2022/01/23 04:11:45 Scanning AP map to find all available APs
+2022/01/23 04:11:45 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 04:11:45 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 04:11:45 Iterating through AP map to find AHB-AP to use
+2022/01/23 04:11:45 AP[0]: Core found
+2022/01/23 04:11:45 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:11:45 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:11:45 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:11:45 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:11:45 CoreSight components:
+2022/01/23 04:11:45 ROMTbl[0] @ E00FF000
+2022/01/23 04:11:45 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:11:45 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:11:45 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:11:45 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:11:45 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:11:45 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:11:45 InitTarget() start
+2022/01/23 04:11:45 InitTarget() end
+2022/01/23 04:11:45 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:11:45 DPIDR: 0x2BA01477
+2022/01/23 04:11:45 CoreSight SoC-400 or earlier
+2022/01/23 04:11:45 AP map detection skipped. Manually configured AP map found.
+2022/01/23 04:11:45 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 04:11:45 AP[0]: Core found
+2022/01/23 04:11:45 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:11:45 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:11:45 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:11:45 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:11:45 CoreSight components:
+2022/01/23 04:11:45 ROMTbl[0] @ E00FF000
+2022/01/23 04:11:45 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:11:45 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:11:45 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:11:45 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:11:45 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:11:45 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:11:45 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 04:11:45 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 04:11:45 Thread:J-Link thread enable
+2022/01/23 04:11:52 Data send success:a
+2022/01/23 04:12:11 Data send success:b
+2022/01/23 04:12:18 Thread:J-Link thread disble
+2022/01/23 04:12:18 Thread:rtt data length [0]
+2022/01/23 04:12:18 Thread:rtt data []
+2022/01/23 04:12:18 Thread:GUI wakeup tick threshold 0
+2022/01/23 04:12:18 Thread:J-Link thread wait......
+2022/01/23 04:12:21 Device "NRF52840_XXAA" selected.
+2022/01/23 04:12:21 InitTarget() start
+2022/01/23 04:12:21 InitTarget() end
+2022/01/23 04:12:21 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:12:21 DPIDR: 0x2BA01477
+2022/01/23 04:12:21 CoreSight SoC-400 or earlier
+2022/01/23 04:12:21 Scanning AP map to find all available APs
+2022/01/23 04:12:21 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 04:12:21 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 04:12:21 Iterating through AP map to find AHB-AP to use
+2022/01/23 04:12:21 AP[0]: Core found
+2022/01/23 04:12:21 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:12:21 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:12:21 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:12:21 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:12:21 CoreSight components:
+2022/01/23 04:12:21 ROMTbl[0] @ E00FF000
+2022/01/23 04:12:21 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:12:21 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:12:21 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:12:21 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:12:21 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:12:21 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:12:21 InitTarget() start
+2022/01/23 04:12:21 InitTarget() end
+2022/01/23 04:12:21 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:12:21 DPIDR: 0x2BA01477
+2022/01/23 04:12:21 CoreSight SoC-400 or earlier
+2022/01/23 04:12:21 AP map detection skipped. Manually configured AP map found.
+2022/01/23 04:12:21 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 04:12:21 AP[0]: Core found
+2022/01/23 04:12:21 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:12:21 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:12:21 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:12:21 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:12:21 CoreSight components:
+2022/01/23 04:12:21 ROMTbl[0] @ E00FF000
+2022/01/23 04:12:21 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:12:21 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:12:21 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:12:21 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:12:21 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:12:21 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:12:21 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 04:12:21 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 04:12:21 Thread:J-Link thread enable
+2022/01/23 04:12:21 Data send success:a
+2022/01/23 04:12:43 Data send success:b
+2022/01/23 04:14:04 Data send success:a
+2022/01/23 04:14:23 Data send success:b
+2022/01/23 04:14:52 Data send success:a
+2022/01/23 04:15:00 Data send success:b
+2022/01/23 04:15:16 Thread:J-Link thread disble
+2022/01/23 04:15:16 Thread:rtt data length [36]
+2022/01/23 04:15:16 Thread:rtt data [pitch,roll,yaw:-17.12,112.32,139.34
+]
+2022/01/23 04:15:16 Thread:GUI wakeup tick threshold 0
+2022/01/23 04:15:16 Thread:J-Link thread wait......
+2022/01/23 04:15:17 Device "NRF52840_XXAA" selected.
+2022/01/23 04:15:17 InitTarget() start
+2022/01/23 04:15:17 InitTarget() end
+2022/01/23 04:15:17 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:15:17 DPIDR: 0x2BA01477
+2022/01/23 04:15:17 CoreSight SoC-400 or earlier
+2022/01/23 04:15:17 Scanning AP map to find all available APs
+2022/01/23 04:15:17 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 04:15:17 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 04:15:17 Iterating through AP map to find AHB-AP to use
+2022/01/23 04:15:17 AP[0]: Core found
+2022/01/23 04:15:17 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:15:17 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:15:17 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:15:17 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:15:17 CoreSight components:
+2022/01/23 04:15:17 ROMTbl[0] @ E00FF000
+2022/01/23 04:15:17 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:15:17 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:15:17 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:15:17 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:15:17 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:15:17 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:15:17 InitTarget() start
+2022/01/23 04:15:17 InitTarget() end
+2022/01/23 04:15:17 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:15:17 DPIDR: 0x2BA01477
+2022/01/23 04:15:17 CoreSight SoC-400 or earlier
+2022/01/23 04:15:17 AP map detection skipped. Manually configured AP map found.
+2022/01/23 04:15:17 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 04:15:17 AP[0]: Core found
+2022/01/23 04:15:17 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:15:17 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:15:17 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:15:17 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:15:17 CoreSight components:
+2022/01/23 04:15:17 ROMTbl[0] @ E00FF000
+2022/01/23 04:15:17 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:15:17 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:15:17 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:15:17 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:15:17 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:15:17 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:15:17 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 04:15:17 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 04:15:17 Thread:J-Link thread enable
+2022/01/23 04:15:18 Data send success:a
+2022/01/23 04:15:27 Data send success:b
+2022/01/23 04:15:37 Thread:J-Link thread disble
+2022/01/23 04:15:37 Thread:rtt data length [0]
+2022/01/23 04:15:37 Thread:rtt data []
+2022/01/23 04:15:37 Thread:GUI wakeup tick threshold 0
+2022/01/23 04:15:37 Thread:J-Link thread wait......
+2022/01/23 04:15:38 Device "NRF52840_XXAA" selected.
+2022/01/23 04:15:38 InitTarget() start
+2022/01/23 04:15:38 InitTarget() end
+2022/01/23 04:15:38 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:15:38 DPIDR: 0x2BA01477
+2022/01/23 04:15:38 CoreSight SoC-400 or earlier
+2022/01/23 04:15:38 Scanning AP map to find all available APs
+2022/01/23 04:15:38 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 04:15:38 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 04:15:38 Iterating through AP map to find AHB-AP to use
+2022/01/23 04:15:38 AP[0]: Core found
+2022/01/23 04:15:38 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:15:38 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:15:38 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:15:38 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:15:38 CoreSight components:
+2022/01/23 04:15:38 ROMTbl[0] @ E00FF000
+2022/01/23 04:15:38 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:15:38 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:15:38 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:15:38 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:15:38 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:15:38 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:15:38 InitTarget() start
+2022/01/23 04:15:38 InitTarget() end
+2022/01/23 04:15:38 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:15:38 DPIDR: 0x2BA01477
+2022/01/23 04:15:38 CoreSight SoC-400 or earlier
+2022/01/23 04:15:38 AP map detection skipped. Manually configured AP map found.
+2022/01/23 04:15:38 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 04:15:38 AP[0]: Core found
+2022/01/23 04:15:38 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:15:38 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:15:38 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:15:38 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:15:38 CoreSight components:
+2022/01/23 04:15:38 ROMTbl[0] @ E00FF000
+2022/01/23 04:15:38 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:15:38 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:15:38 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:15:38 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:15:38 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:15:38 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:15:38 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 04:15:38 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 04:15:38 Thread:J-Link thread enable
+2022/01/23 04:15:41 Data send success:a
+2022/01/23 04:15:50 Data send success:b
+2022/01/23 04:16:13 Data send success:a
+2022/01/23 04:16:20 Data send success:b
+2022/01/23 04:16:40 Data send success:a
+2022/01/23 04:16:51 Data send error[Unspecified error.]
+
+2022/01/23 04:16:53 Data send error[Unspecified error.]
+
+2022/01/23 04:16:54 Data send error[Unspecified error.]
+
+2022/01/23 04:16:54 Data send error[Unspecified error.]
+
+2022/01/23 04:16:54 Data send error[Unspecified error.]
+
+2022/01/23 04:16:54 Data send error[Unspecified error.]
+
+2022/01/23 04:17:05 Data send success:b
+2022/01/23 04:17:19 Data send success:a
+2022/01/23 04:17:27 Data send success:b
+2022/01/23 04:18:04 Data send success:a
+2022/01/23 04:18:12 Data send success:b
+2022/01/23 04:18:21 Thread:J-Link thread disble
+2022/01/23 04:18:21 Thread:rtt data length [38]
+2022/01/23 04:18:21 Thread:rtt data [pitch,roll,yaw:4.151,131.254,-168.162
+]
+2022/01/23 04:18:21 Thread:GUI wakeup tick threshold 0
+2022/01/23 04:18:21 Thread:J-Link thread wait......
+2022/01/23 04:18:23 Device "NRF52840_XXAA" selected.
+2022/01/23 04:18:23 InitTarget() start
+2022/01/23 04:18:23 InitTarget() end
+2022/01/23 04:18:23 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:18:23 DPIDR: 0x2BA01477
+2022/01/23 04:18:23 CoreSight SoC-400 or earlier
+2022/01/23 04:18:23 Scanning AP map to find all available APs
+2022/01/23 04:18:23 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 04:18:23 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 04:18:23 Iterating through AP map to find AHB-AP to use
+2022/01/23 04:18:23 AP[0]: Core found
+2022/01/23 04:18:23 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:18:23 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:18:23 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:18:23 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:18:23 CoreSight components:
+2022/01/23 04:18:23 ROMTbl[0] @ E00FF000
+2022/01/23 04:18:23 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:18:23 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:18:23 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:18:23 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:18:23 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:18:23 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:18:23 InitTarget() start
+2022/01/23 04:18:23 InitTarget() end
+2022/01/23 04:18:23 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:18:23 DPIDR: 0x2BA01477
+2022/01/23 04:18:23 CoreSight SoC-400 or earlier
+2022/01/23 04:18:23 AP map detection skipped. Manually configured AP map found.
+2022/01/23 04:18:23 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 04:18:23 AP[0]: Core found
+2022/01/23 04:18:23 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:18:23 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:18:23 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:18:23 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:18:23 CoreSight components:
+2022/01/23 04:18:23 ROMTbl[0] @ E00FF000
+2022/01/23 04:18:23 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:18:23 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:18:23 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:18:23 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:18:23 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:18:23 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:18:23 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 04:18:23 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 04:18:23 Thread:J-Link thread enable
+2022/01/23 04:18:25 Data send success:a
+2022/01/23 04:18:32 Data send success:b
+2022/01/23 04:18:49 Thread:J-Link thread disble
+2022/01/23 04:18:49 Thread:rtt data length [37]
+2022/01/23 04:18:49 Thread:rtt data [pitch,roll,yaw:0.953,117.717,171.485
+]
+2022/01/23 04:18:49 Thread:GUI wakeup tick threshold 0
+2022/01/23 04:18:49 Thread:J-Link thread wait......
+2022/01/23 04:18:50 Device "NRF52840_XXAA" selected.
+2022/01/23 04:18:50 InitTarget() start
+2022/01/23 04:18:50 InitTarget() end
+2022/01/23 04:18:50 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:18:50 DPIDR: 0x2BA01477
+2022/01/23 04:18:50 CoreSight SoC-400 or earlier
+2022/01/23 04:18:50 Scanning AP map to find all available APs
+2022/01/23 04:18:50 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 04:18:50 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 04:18:50 Iterating through AP map to find AHB-AP to use
+2022/01/23 04:18:50 AP[0]: Core found
+2022/01/23 04:18:50 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:18:50 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:18:50 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:18:50 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:18:50 CoreSight components:
+2022/01/23 04:18:50 ROMTbl[0] @ E00FF000
+2022/01/23 04:18:50 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:18:50 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:18:50 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:18:50 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:18:50 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:18:50 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:18:50 InitTarget() start
+2022/01/23 04:18:50 InitTarget() end
+2022/01/23 04:18:50 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:18:50 DPIDR: 0x2BA01477
+2022/01/23 04:18:50 CoreSight SoC-400 or earlier
+2022/01/23 04:18:50 AP map detection skipped. Manually configured AP map found.
+2022/01/23 04:18:50 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 04:18:50 AP[0]: Core found
+2022/01/23 04:18:50 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:18:50 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:18:50 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:18:50 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:18:50 CoreSight components:
+2022/01/23 04:18:50 ROMTbl[0] @ E00FF000
+2022/01/23 04:18:50 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:18:50 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:18:50 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:18:50 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:18:50 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:18:50 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:18:50 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 04:18:50 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 04:18:50 Thread:J-Link thread enable
+2022/01/23 04:18:51 Data send success:a
+2022/01/23 04:18:51 Data send success:a
+2022/01/23 04:18:59 Data send success:b
+2022/01/23 04:19:34 Data send success:a
+2022/01/23 04:19:41 Data send success:b
+2022/01/23 04:19:54 Thread:J-Link thread disble
+2022/01/23 04:19:54 Thread:rtt data length [0]
+2022/01/23 04:19:54 Thread:rtt data []
+2022/01/23 04:19:54 Thread:GUI wakeup tick threshold 0
+2022/01/23 04:19:54 Thread:J-Link thread wait......
+2022/01/23 04:20:04 Device "NRF52840_XXAA" selected.
+2022/01/23 04:20:04 InitTarget() start
+2022/01/23 04:20:04 InitTarget() end
+2022/01/23 04:20:04 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:20:04 DPIDR: 0x2BA01477
+2022/01/23 04:20:04 CoreSight SoC-400 or earlier
+2022/01/23 04:20:04 Scanning AP map to find all available APs
+2022/01/23 04:20:04 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 04:20:04 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 04:20:04 Iterating through AP map to find AHB-AP to use
+2022/01/23 04:20:04 AP[0]: Core found
+2022/01/23 04:20:04 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:20:04 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:20:04 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:20:04 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:20:04 CoreSight components:
+2022/01/23 04:20:04 ROMTbl[0] @ E00FF000
+2022/01/23 04:20:04 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:20:04 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:20:04 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:20:04 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:20:04 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:20:04 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:20:04 InitTarget() start
+2022/01/23 04:20:04 InitTarget() end
+2022/01/23 04:20:04 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:20:04 DPIDR: 0x2BA01477
+2022/01/23 04:20:04 CoreSight SoC-400 or earlier
+2022/01/23 04:20:04 AP map detection skipped. Manually configured AP map found.
+2022/01/23 04:20:04 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 04:20:04 AP[0]: Core found
+2022/01/23 04:20:04 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:20:04 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:20:04 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:20:04 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:20:04 CoreSight components:
+2022/01/23 04:20:04 ROMTbl[0] @ E00FF000
+2022/01/23 04:20:04 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:20:04 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:20:04 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:20:04 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:20:04 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:20:04 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:20:04 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 04:20:04 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 04:20:04 Thread:J-Link thread enable
+2022/01/23 04:20:06 Data send success:a
+2022/01/23 04:20:16 Data send success:b
+2022/01/23 04:20:50 Thread:J-Link thread disble
+2022/01/23 04:20:50 Thread:rtt data length [0]
+2022/01/23 04:20:50 Thread:rtt data []
+2022/01/23 04:20:50 Thread:GUI wakeup tick threshold 0
+2022/01/23 04:20:50 Thread:J-Link thread wait......
+2022/01/23 04:20:50 Device "NRF52840_XXAA" selected.
+2022/01/23 04:20:50 InitTarget() start
+2022/01/23 04:20:50 InitTarget() end
+2022/01/23 04:20:50 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:20:50 DPIDR: 0x2BA01477
+2022/01/23 04:20:50 CoreSight SoC-400 or earlier
+2022/01/23 04:20:50 Scanning AP map to find all available APs
+2022/01/23 04:20:50 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 04:20:50 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 04:20:50 Iterating through AP map to find AHB-AP to use
+2022/01/23 04:20:50 AP[0]: Core found
+2022/01/23 04:20:50 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:20:50 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:20:50 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:20:51 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:20:51 CoreSight components:
+2022/01/23 04:20:51 ROMTbl[0] @ E00FF000
+2022/01/23 04:20:51 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:20:51 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:20:51 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:20:51 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:20:51 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:20:51 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:20:51 InitTarget() start
+2022/01/23 04:20:51 InitTarget() end
+2022/01/23 04:20:51 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:20:51 DPIDR: 0x2BA01477
+2022/01/23 04:20:51 CoreSight SoC-400 or earlier
+2022/01/23 04:20:51 AP map detection skipped. Manually configured AP map found.
+2022/01/23 04:20:51 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 04:20:51 AP[0]: Core found
+2022/01/23 04:20:51 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:20:51 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:20:51 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:20:51 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:20:51 CoreSight components:
+2022/01/23 04:20:51 ROMTbl[0] @ E00FF000
+2022/01/23 04:20:51 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:20:51 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:20:51 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:20:51 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:20:51 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:20:51 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:20:51 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 04:20:51 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 04:20:51 Thread:J-Link thread enable
+2022/01/23 04:20:52 Data send success:a
+2022/01/23 04:21:03 Data send success:b
+2022/01/23 04:21:45 Data send success:a
+2022/01/23 04:21:56 Data send success:b
+2022/01/23 04:23:08 Thread:J-Link thread disble
+2022/01/23 04:23:08 Thread:rtt data length [0]
+2022/01/23 04:23:08 Thread:rtt data []
+2022/01/23 04:23:08 Thread:GUI wakeup tick threshold 0
+2022/01/23 04:23:08 Thread:J-Link thread wait......
+2022/01/23 04:23:08 Device "NRF52840_XXAA" selected.
+2022/01/23 04:23:08 InitTarget() start
+2022/01/23 04:23:08 InitTarget() end
+2022/01/23 04:23:08 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:23:08 DPIDR: 0x2BA01477
+2022/01/23 04:23:08 CoreSight SoC-400 or earlier
+2022/01/23 04:23:08 Scanning AP map to find all available APs
+2022/01/23 04:23:08 AP[1]: Stopped AP scan as end of AP map has been reached
+2022/01/23 04:23:08 AP[0]: AHB-AP (IDR: 0x24770011)
+2022/01/23 04:23:08 Iterating through AP map to find AHB-AP to use
+2022/01/23 04:23:08 AP[0]: Core found
+2022/01/23 04:23:08 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:23:08 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:23:08 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:23:08 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:23:08 CoreSight components:
+2022/01/23 04:23:08 ROMTbl[0] @ E00FF000
+2022/01/23 04:23:08 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:23:08 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:23:08 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:23:08 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:23:08 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:23:08 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:23:08 InitTarget() start
+2022/01/23 04:23:08 InitTarget() end
+2022/01/23 04:23:08 Found SW-DP with ID 0x2BA01477
+2022/01/23 04:23:08 DPIDR: 0x2BA01477
+2022/01/23 04:23:08 CoreSight SoC-400 or earlier
+2022/01/23 04:23:08 AP map detection skipped. Manually configured AP map found.
+2022/01/23 04:23:08 AP[0]: AHB-AP (IDR: Not set)
+2022/01/23 04:23:08 AP[0]: Core found
+2022/01/23 04:23:08 AP[0]: AHB-AP ROM base: 0xE00FF000
+2022/01/23 04:23:08 CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+2022/01/23 04:23:08 Found Cortex-M4 r0p1, Little endian.
+2022/01/23 04:23:08 FPUnit: 6 code (BP) slots and 2 literal slots
+2022/01/23 04:23:08 CoreSight components:
+2022/01/23 04:23:08 ROMTbl[0] @ E00FF000
+2022/01/23 04:23:08 [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+2022/01/23 04:23:08 [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+2022/01/23 04:23:08 [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+2022/01/23 04:23:08 [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+2022/01/23 04:23:08 [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+2022/01/23 04:23:08 [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+2022/01/23 04:23:08 Reset: Halt core after reset via DEMCR.VC_CORERESET.
+2022/01/23 04:23:08 Reset: Reset device via AIRCR.SYSRESETREQ.
+2022/01/23 04:23:08 Thread:J-Link thread enable
+2022/01/23 04:23:11 Data send success:a
+2022/01/23 04:23:24 Data send success:b
+2022/01/23 04:25:07 Data send success:a
+2022/01/23 04:25:15 Data send success:b
+2022/01/23 04:29:42 Data send success:a
+2022/01/23 04:29:55 Data send success:b
+2022/01/23 04:32:03 Data send success:a
+2022/01/23 04:32:14 Data send success:b
+2022/01/23 04:37:13 Data send success:a
+2022/01/23 04:37:33 Data send success:b
+2022/01/23 04:54:43 Data send success:a
+2022/01/23 04:55:10 Data send success:b
+2022/01/23 04:58:11 Data send success:a
+2022/01/23 04:58:37 Data send success:b
+2022/01/23 04:59:42 Data send success:a
+2022/01/23 05:00:03 Data send success:b
+2022/01/23 05:01:46 Data send success:a
+2022/01/23 05:02:01 Data send success:b
+2022/01/23 05:02:43 Data send success:a
+2022/01/23 05:02:58 Data send success:b
+2022/01/23 05:05:21 Data send success:a
+2022/01/23 05:05:30 Data send success:b
+2022/01/23 05:12:17 Data send success:a
+2022/01/23 05:12:31 Data send success:b
+2022/01/23 05:14:46 Data send success:a
+2022/01/23 05:15:02 Data send success:b
+2022/01/23 05:16:15 Data send success:a
+2022/01/23 05:16:30 Data send success:b
+2022/01/23 05:17:38 Data send success:a
+2022/01/23 05:17:53 Data send success:b
+2022/01/23 05:23:47 Thread:J-Link thread disble
+2022/01/23 05:23:47 Thread:rtt data length [4096]
+2022/01/23 05:23:47 Thread:rtt data [send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send
+send]
+2022/01/23 05:23:47 Thread:GUI wakeup tick threshold 0
+2022/01/23 05:23:47 Thread:J-Link thread wait......
+2022/01/23 05:26:13 Thread:J-Link thread disble
