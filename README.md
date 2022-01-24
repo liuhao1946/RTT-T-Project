@@ -23,7 +23,7 @@
 
 * 当软件内部出现异常时，能够将详细的异常信息输出到rtt-t.log中
 
-![](https://github.com/liuhao1946/RTT-T-Project/blob/master/image/3.gif)
+![](https://github.com/liuhao1946/RTT-T-Project/blob/master/image/3.png)
 
 ---
 ### RTT-T功能演示
