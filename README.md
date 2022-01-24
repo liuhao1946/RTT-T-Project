@@ -125,7 +125,7 @@ void timer_10ms(void)
   
     [pylink-square](https://github.com/square/pylink)
   
-* 源码中使用的PySimpleGUI版本为4.51.1。我在该版本中增加了获得数据框滚动条相对位置的函数（官方没有提供这个接口），因此你在安装了PySimpleGUI后，还需要在PySimpleGUI.py中增加下面代码（就放在set_vscroll_position()函数后面，这个函数是PySimpleGUI中存在的）
+3. 源码中使用的PySimpleGUI版本为4.51.1。我在该版本中增加了获得数据框滚动条相对位置的函数（官方没有提供这个接口），因此你在安装了PySimpleGUI后，还需要在PySimpleGUI.py中增加下面代码（就放在set_vscroll_position()函数后面，这个函数是PySimpleGUI中存在的）
 ```python
     def get_vscroll_position(self):
         """
