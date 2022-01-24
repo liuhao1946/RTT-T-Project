@@ -23,7 +23,6 @@
 
 * 当软件内部出现异常时，能够将详细的异常信息输出到rtt-t.log中
 
-<<<<<<< HEAD
 ![](https://gitee.com/bds123/RTT-T/raw/master/image/3.png)
 
 ---
