@@ -142,7 +142,6 @@ void timer_10ms(void)
             return None
 ```
 
-=======
 ![](https://github.com/liuhao1946/RTT-T-Project/blob/master/image/3.png)
 
 ---
@@ -235,7 +234,6 @@ void timer_10ms(void )
 
    "time syn:2022-01-16-15-08-05"  
 
->>>>>>> d9f698cf81a62a06771d6a196ad80173868f2abe
 * 打开**实时数据保存**或者**保存数据框中的全部数据**时，RTT-T会自动在应用程序所在目录创建文件
 
   实时数据保存的文件名称：real_time_log_xxx(xxx为年月日时分秒)
