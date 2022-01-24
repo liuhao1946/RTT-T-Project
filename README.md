@@ -113,9 +113,6 @@ void timer_10ms(void)
 
 2. 在Text Data输入框中输入字符串指令"cmd:time syn"（软件默认）
 
-* 点击Send按钮，RTT-T会将如下字符串格式的电脑时间发送到MCU
-
-  "time syn:2022-01-16-15-08-05"  
 3. 点击Send按钮，RTT-T会将如下字符串格式的电脑时间发送到MCU
 
    "time syn:2022-01-16-15-08-05"  
