@@ -141,9 +141,6 @@ void timer_10ms(void)
             print(e)
             return None
 ```
-
-![](https://github.com/liuhao1946/RTT-T-Project/blob/master/image/3.png)
-
 ---
 ### RTT-T功能演示
 
